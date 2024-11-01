@@ -1,0 +1,53 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .vayapin-input {
+  height: 30px;
+	min-width: 500px;
+}
+
+.vayapin-alert {
+	padding: 10px 30px;
+	background-color: rgb(25, 114, 52);
+	margin-top: 20px;
+	border-radius: 5px;
+	color: white;
+}
+
+.vayapin-relative {
+	position: relative;
+	width: 500px;
+}
+
+.vayapin-input-addon {
+	position: absolute;
+	top: 1px;
+	right: 0.5px;
+	height: 92%;
+	display: flex;
+	align-items: center;
+	padding: 0 10px;
+	background-color: #f2f2f2;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.vayapin-button-icon {
+  height: 15px;
+  margin-right: 5px;
+	margin-bottom: -1px;
+}
+
+.vayapin-api-icon {
+	margin-top: 2px;
+	font-size: 25px;
+}
+
+.vayapin-api-icon-green {
+	color:rgb(45, 160, 79);
+}
+
+.vayapin-api-icon-red {
+	color: rgb(218, 78, 78); 
+}

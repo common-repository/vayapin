@@ -1,0 +1,199 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .vayapin-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 98;
+ }
+
+.vayapin-checkout-button {
+  position: relative;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.vayapin-button-icon {
+  width: 12px;
+  margin-right: 10px;
+}
+
+.vayapin-learn-more {
+  display: inline-block;
+  margin-top: 3px;
+  font-size: 12px;
+  text-decoration: underline!important;
+}
+
+#vayapin-fields-button {
+  width: 100%;
+}
+
+.vayapin-container {
+  position: relative;
+	height: 0px;
+  z-index: 99;
+}
+
+.vayapin-checkout-container {
+  display: flex;
+  justify-content: end;
+  transform: translate(-10px, 10px);
+}
+
+.vayapin-checkout-dropdown {
+  position: absolute;
+  right: 10px;
+  top: 65px;
+  min-width: 350px;
+  width: 350px;
+  z-index: 99;
+  border-radius: 3px;
+}
+
+.vayapin-checkout-dropdown-header {
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.vayapin-checkout-dropdown-close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.vayapin-checkout-dropdown-header h2 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #303030;
+}
+
+.vayapin-checkout-dropdown-header img {
+  margin-bottom: -3px;
+}
+
+.vayapin-checkout-dropdown-header span {
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.vayapin-checkout-dropdown-body {
+  background-color: #ffffff;
+  border: 1px solid #f2f2f2;
+  border-top: none;
+  padding: 20px;
+  padding-bottom: 0px;
+  border-radius: 3px;
+}
+
+.vayapin-form-input {
+  width: 100%;
+	padding: 5px 10px!important;
+	margin-bottom: 10px;
+	border: 1px solid #f2f2f2;
+	border-radius: 3px!important;
+}
+
+.vayapin-checkout-button-inside {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vayapin-select2 {
+  width: 100%;
+}
+
+.select2-selection--single {
+  background-color: #f4f4f4!important;
+  border-radius: 3px!important;
+}
+
+.vayapin-form-label {
+  margin-bottom: 10px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.woocommerce-billing-fields__field-wrapper {
+  margin-top: 60px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex > #vayapin_input {
+  width: 100%;
+}
+
+.vayapin-country {
+  width: 30px;
+}
+
+.country-select.inside input, .country-select.inside input[type=text] {
+  padding-left: 40px;
+}
+
+.vayapin-description {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.vayapin-input-name {
+  border-left: none!important;
+}
+
+.vayapin-logo-checkout {
+  width: 80px;
+  margin-top: 10px;
+}
+
+.vayapin-error-text {
+  color: rgb(206, 87, 87);
+  font-size: 13px;
+}
+
+
+
